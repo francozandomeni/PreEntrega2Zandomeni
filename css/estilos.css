@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&display=swap');
+
+* {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+.navbar{
+    background-color: rgb(231, 231, 181);
+}
+
+.navbar-brand{
+    font-family: 'Satisfy', cursive;
+}
+
+.container-fluid {
+    height: 100vh;
+    background-image: url(../imagenes/basketball.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.accordion-button {
+    background-color: white;
+    color: black;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(190, 188, 188);
+    color: black;
+}
+
+.accordion-button:focus {
+    border-color: rgb(118, 116, 116);
+    color: rgb(8, 8, 8);
+}
+
+.accordion {
+    --bs-accordion-btn-focus-border-color: rgb(10, 9, 9);
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(179, 182, 185, 0.25);
+    --bs-accordion-active-color: grey;
+    --bs-accordion-active-bg: rgb(199, 199, 199);
+}
